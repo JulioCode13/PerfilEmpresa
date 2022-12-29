@@ -1,0 +1,95 @@
+/*Tittle font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+
+
+body{
+    width: 100%;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.white_text{
+color: white;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.Components{
+width: 579px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+
+}
+
+.color_blue{
+padding: 40px;
+background-color: #446cec;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+
+.container_cards{
+
+display: flex;
+
+flex-wrap: wrap;
+gap:19px;
+
+}
+.cards{
+width: 280px;
+background-color: #f1faee;
+padding: 25px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.person{
+width: 50px;
+height: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.Components{
+        width: 360px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        }
+        .container_cards{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap:19px;
+            
+            }
+            .cards{
+                width: 360px;
+            }
+}
